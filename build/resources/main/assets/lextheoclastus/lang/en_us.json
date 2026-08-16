@@ -1,0 +1,13 @@
+{
+  "itemGroup.lextheoclastus": "Example Mod Tab",
+  "block.lextheoclastus.example_block": "Example Block",
+  "item.lextheoclastus.example_item": "Example Item",
+
+  "lextheoclastus.configuration.title": "Lex Theoclastus Configs",
+  "lextheoclastus.configuration.section.lextheoclastus.common.toml": "Lex Theoclastus Configs",
+  "lextheoclastus.configuration.section.lextheoclastus.common.toml.title": "Lex Theoclastus Configs",
+  "lextheoclastus.configuration.items": "Item List",
+  "lextheoclastus.configuration.logDirtBlock": "Log Dirt Block",
+  "lextheoclastus.configuration.magicNumberIntroduction": "Magic Number Text",
+  "lextheoclastus.configuration.magicNumber": "Magic Number"
+}
