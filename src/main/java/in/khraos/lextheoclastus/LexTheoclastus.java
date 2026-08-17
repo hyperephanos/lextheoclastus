@@ -1,5 +1,6 @@
 package in.khraos.lextheoclastus;
 
+import in.khraos.lextheoclastus.Registeries.ModRegisteries;
 import org.slf4j.Logger;
 import com.mojang.logging.LogUtils;
 
@@ -13,8 +14,8 @@ public class LexTheoclastus {
     public static final Logger LOGGER = LogUtils.getLogger();
 
     public LexTheoclastus(IEventBus modEventBus, ModContainer modContainer) {
-        
-        // ModBlocks.BLOCKS.register(modEventBus);
-        // ModBlocks.BLOCKENTITIES.register(modEventBus);
+
+        ModRegisteries.BLOCKS.register(modEventBus);
+        ModRegisteries.BLOCKENTITIES.register(modEventBus);
     }
 }
