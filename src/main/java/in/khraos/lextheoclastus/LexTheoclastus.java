@@ -16,6 +16,7 @@ public class LexTheoclastus {
     public LexTheoclastus(IEventBus modEventBus, ModContainer modContainer) {
 
         ModRegisteries.BLOCKS.register(modEventBus);
+
         ModRegisteries.BLOCKENTITIES.register(modEventBus);
     }
 }
